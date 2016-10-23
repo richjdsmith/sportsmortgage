@@ -1,0 +1,24 @@
+Updated Navigation on all pages to match final layout
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# Explicit paths specified without -i or -o; assuming --only paths...
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	modified:   about-us.html
+#	modified:   apply.html
+#	modified:   contact-us.html
+#	modified:   documentation/tutorial.html
+#	modified:   home.html
+#
+# Changes not staged for commit:
+#	deleted:    mattsfallingsnowmp4-ZqroA9yc/mattsfallingsnowmp4.jpg
+#	deleted:    mattsfallingsnowmp4-ZqroA9yc/mattsfallingsnowmp4.mp4
+#	deleted:    mattsfallingsnowmp4-ZqroA9yc/readme.txt
+#
+# Untracked files:
+#	.DS_Store
+#	assets/js/scroll.js
+#

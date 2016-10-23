@@ -20,7 +20,7 @@
 
 <body>
 
-    <nav class="navbar navbar-default navbar-transparent navbar-fixed-top" color-on-scroll="100">
+    <nav class="navbar navbar-default navbar-transparent navbar-fixed-top" color-on-scroll="200">
         <!-- if you want to keep the navbar hidden you can add this class to the navbar "navbar-burger"-->
         <div class="container">
             <div class="navbar-header">
@@ -30,7 +30,7 @@
                     <span class="icon-bar bar2"></span>
                     <span class="icon-bar bar3"></span>
                 </button>
-                <a href="http://www.creative-tim.com" class="navbar-brand">
+                <a href="http://www.tekamar.ca" class="navbar-brand">
                     SportsMortgage
                 </a>
             </div>
@@ -39,45 +39,14 @@
                     <li>
                         <a href="home.html">Home</a>
                     </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <span class="caret"></span></a>
-                        <ul class="dropdown-menu dropdown-danger">
-                            <li>
-                                <a href="blog-post.html">Blog post</a>
-                            </li>
-                            <li>
-                                <a href="blog-posts.html">Blog Posts</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages <span class="caret"></span></a>
-                        <ul class="dropdown-menu dropdown-danger">
-                            <li>
-                                <a href="about-us.html">About us</a>
-                            </li>
-                            <li>
-                                <a href="contact-us.html">Contact us</a>
-                            </li>
-                            <li>
-                                <a href="portfolio.html">Portfolio</a>
-                            </li>
-                            <li>
-                                <a href="signin.html">Signin</a>
-                            </li>
-                            <li>
-                                <a href="signup.html">Signup</a>
-                            </li>
-                            <li>
-                                <a href="../documentation/components.html">All components</a>
-                            </li>
-                        </ul>
+                    <li>
+                        <a href="about-us.html">Our Story</a>
                     </li>
                     <li>
-                        <a href="pricing.html">Pricing</a>
+                        <a href="Contact-us.html">Contact Us</a>
                     </li>
                     <li>
-                        <a href="http://www.creative-tim.com/product/gaia-bootstrap-template-pro" class="btn btn-danger btn-fill">Buy now</a>
+                        <a href="apply.html" class="btn btn-danger btn-fill">Apply Now</a>
                     </li>
                     <li class="dropdown">
                         <a href="#gaia" class="dropdown-toggle" data-toggle="dropdown">
@@ -97,6 +66,7 @@
                     </li>
                 </ul>
             </div>
+            <!-- /.navbar-collapse -->
         </div>
     </nav>
 
@@ -136,11 +106,11 @@
 
                             <br>
 
-                            <h3>Option 1: Apply online right here.</h3> 
+                            <h3><a href="#apply-online" class="btn btn-simple btn-danger" > Option 1: Apply online right here.</a></h3> 
                                 <p>Directly below this section is our online application form. It should take about 10 minutes to fill out. Once you hit submit, it will be sent to our office. From there we will go through it, do some digging then give you a call or email you. We aim to get back within 24hrs. 
                                 </p>
                             
-                            <h3>Option 2: Apply with our PDF on the go.</h3> 
+                            <h3><a href="#pdf" class="btn btn-simple btn-danger" style="padding-top:100px; margin-top:-40px;">Option 2: Apply with our PDF on the go.</a></h3>
                                 <p> We've gone ahead and made a super awesome PDF that lets you take your application on the go. Don't beleive a PDF can be awesome? We don't blame you. Our's is because after you've filled it out - in the 2 minute breaks you have throughout the day - you can just press the submit button on the bottom of it and we get the info. No need to open an email app. Awesome right?
                                 </p>
 
@@ -165,7 +135,7 @@
         </div>
         <br>
         <br> 
-        <div class="container">
+        <div class="container" id="apply-online">
             <div class="row">
                 <div class="title-area">
                     <h2>Apply Right Here</h2>
@@ -198,7 +168,7 @@
 
     <!--glyphicon glyphicon-download-alt -->
 
-    <div class="section">
+    <div class="section" id="pdf">
         <div class="container">
             <div class="row">
                 <div class="title-area">
@@ -371,6 +341,7 @@
 <script src="assets/js/jquery.min.js" type="text/javascript"></script>
 <script src="assets/js/bootstrap.js" type="text/javascript"></script>
 
+
 <!--  js library for devices recognition -->
 <script type="text/javascript" src="assets/js/modernizr.js"></script>
 
@@ -379,6 +350,7 @@
 
 <!--   file where we handle all the script from the Gaia - Bootstrap Template   -->
 <script type="text/javascript" src="assets/js/gaia.js"></script>
+<script src="assets/js/scroll.js" type="text/javascript"></script>
 
 
 </html>
