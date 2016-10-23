@@ -7,3 +7,8 @@
 {
   min-width: 8em;
 }
+.link-header
+{
+	text-transform: uppercase;
+	color: #e78b90;
+}

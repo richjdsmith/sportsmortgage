@@ -11,6 +11,7 @@
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
     <link href="assets/css/bootstrap.css" rel="stylesheet" />
     <link href="assets/css/gaia.css" rel="stylesheet"/>
+    <link href="assets/css/custom.css" rel="stylesheet"/>
 
     <!--     Fonts and icons     -->
     <link href='https://fonts.googleapis.com/css?family=Cambo|Lato:400,700' rel='stylesheet' type='text/css'>
@@ -43,25 +44,23 @@
                         <a href="about-us.html">Our Story</a>
                     </li>
                     <li>
-                        <a href="Contact-us.html">Contact Us</a>
+                        <a href="contact-us.html">Contact Us</a>
                     </li>
                     <li>
                         <a href="apply.html" class="btn btn-danger btn-fill">Apply Now</a>
                     </li>
                     <li class="dropdown">
-                        <a href="#gaia" class="dropdown-toggle" data-toggle="dropdown">
+                        <a href="" class="dropdown-toggle" data-toggle="dropdown">
                             <i class="fa fa-share-alt"></i> Share
                         </a>
                         <ul class="dropdown-menu dropdown-danger">
                             <li>
-                                <a href="#"><i class="fa fa-facebook-square"></i> Facebook</a>
+                                <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//www.sportsmortgage.com/" target="_blank"><i class="fa fa-facebook-square"></i> Facebook</a>
                             </li>
                             <li>
-                                <a href="#"><i class="fa fa-twitter"></i> Twitter</a>
+                                <a href="https://twitter.com/home?status=Check%20out%20this%20awesome%20program%20I%20found%20for%20Athletes%20Parents!%20http%3A//www.sportsmortgage.com/%20%40tekamarmortgage" target="_blank"><i class="fa fa-twitter"></i> Twitter</a>
                             </li>
-                            <li>
-                                <a href="#"><i class="fa fa-instagram"></i> Instagram</a>
-                            </li>
+                            
                         </ul>
                     </li>
                 </ul>
@@ -75,49 +74,48 @@
         <div class="section section-contact-form">
             <div class="container">
                     <div class="title-area">
-                        <h5 class="subtitle text-gray">Glad to Talk With You</h5>
+                        <h5 class="subtitle text-gray">Ready to get in touch?</h5>
                         <h2>Contact Us</h2>
                         <div class="separator separator-danger">✻</div>
-                        <p class="description">In this area you can write some interesting description about the projects that your team created. Don't forget to add some awesome images under this description, like the beautiful ones that we added.</p>
+                        <p class="description">If what you've seen here seems like something you would be interested in, awesome - let's chat. Feel free to either give us a call or drop us an email throught the form below.</p>
                     </div>
 
                 <div class="social-buttons">
-                    <button class="btn btn-social btn-simple"><i class="fa fa-facebook-square"></i></button>
-                    <button class="btn btn-social btn-simple"><i class="fa fa-twitter"></i></button>
-                    <button class="btn btn-social btn-simple"><i class="fa fa-instagram"></i></button>
-                    <button class="btn btn-social btn-simple"><i class="fa fa-google" ></i></button>
+                    <a href="https://www.facebook.com/tekamar"><button class="btn btn-social btn-simple"><i class="fa fa-facebook-square"></i></button></a>
+                    <a href="https://www.twitter.com/tekamarmortgage"<button class="btn btn-social btn-simple"><i class="fa fa-twitter"></i></button></a>
+                    <a href="https://plus.google.com/+TekamarMortgagesLtdSalmonArm"<button class="btn btn-social btn-simple"><i class="fa fa-google" ></i></button></a>
                 </div>
 
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
                         <div class="contact-form">
-                            <form action="" method="post">
+                            <form action="assets/php/contactengine.php" method="post">
                                 <div class="row">
                                     <div class="col-md-4">
                                         <div class="form-group">
-                                            <label>Your Full Name</label>
-                                            <input type="text" name="name" value="" placeholder="Michael Jordan" class="form-control form-control-plain">
+                                            <label for="Name">Your Full Name</label>
+                                            <input type="text" name="Name" id="Name" placeholder="Richard Smith" class="form-control form-control-plain">
                                         </div>
                                     </div>
                                     <div class="col-md-4">
                                         <div class="form-group">
                                             <label>Your Email</label>
-                                            <input type="text" name="email" value="" placeholder="michael.j@gmail.com" class="form-control form-control-plain">
+                                            <input type="text" name="Email" id="Email" placeholder="richard.smith@gmail.com" class="form-control form-control-plain">
                                         </div>
                                     </div>
                                     <div class="col-md-4">
                                         <div class="form-group">
-                                            <label>Subject</label>
-                                            <input type="text" name="subject" value="" placeholder="Say hi to you" class="form-control form-control-plain">
+                                            <label>Phone Number</label>
+                                            <input type="tel" name="Tel" id="Tel" placeholder="250-832-8766" class="form-control form-control-plain">
                                         </div>
                                     </div>
                                     <div class="col-md-12">
                                         <div class="form-group">
-                                            <textarea name="content" class="form-control form-control-plain" placeholder="Here you can write your nice text" rows="8"></textarea>
+                                            <textarea name="Message" id="Message" class="form-control form-control-plain" placeholder="Here you can write your nice text" rows="8"></textarea>
                                         </div>
                                         <div>
                                             <div class="col-md-2 col-md-offset-5">
-                                                <button type="button" class="btn btn-danger btn-fill">
+                                                <button type="submit" name="submit" value="submit" class="btn btn-danger btn-fill"> 
                                                     Contact Us
                                                 </button>
                                             </div>
@@ -134,58 +132,98 @@
             <div class="contact-container">
                 <div class="address-container ">
                     <div class="address">
-                        <h4>Where to meet ?</h4>
+                        <h4>Where are we?</h4>
                         <p class="text-gray">
-                            2578 Paris<br>
-                            Rue Abel, 12<br>
-                            France
+                            205-271 Ross Street<br>
+                            Salmon Arm, BC<br>
+                            V1E 4P9
                         </p>
                         <h4>Phone</h4>
-                        <p class="text-gray">0456 / 71 21 39</p>
+                        <p class="text-gray">250-832-8766</p>
                         <h4>By the old way</h4>
-                        <a href="mailto:hello@creative-tim.com">
-                            <p class="text-gray">hello@creativetim.com</p>
+                        <a href="mailto:info@tekamar.ca">
+                            <p class="text-gray">info@tekamar.ca</p>
                         </a>
                     </div>
                 </div>
                 <div class="map">
-                    <div data-lat="44.433530" data-lng="26.093928" class="google-map big-map"></div>
+                    <div data-lat="50.701754" data-lng="-119.281476" class="google-map big-map"></div>
                 </div>
             </div>
         </div>
     </div>
 
-    <footer class="footer footer-color-black" data-color="black">
+    <footer class="footer footer-big footer-color-black" data-color="black">
         <div class="container">
-            <nav class="pull-left">
-                <ul>
-                    <li>
-                        <a href="#">Home</a>
-                    </li>
-                    <li>
-                        <a href="#">Company</a>
-                    </li>
-                    <li>
-                        <a href="#">Portfolio</a>
-                    </li>
-                    <li>
-                        <a href="#">Blog</a>
-                    </li>
-                </ul>
-            </nav>
-            <div class="social-area pull-right">
-                <a class="btn btn-social btn-facebook btn-simple">
-                    <i class="fa fa-facebook-square"></i>
-                </a>
-                <a class="btn btn-social btn-twitter btn-simple">
-                    <i class="fa fa-twitter"></i>
-                </a>
-                    <a class="btn btn-social btn-pinterest btn-simple">
-                    <i class="fa fa-pinterest"></i>
-                </a>
+            <div class="row">
+                <div class="col-md-3 col-md-offset-1 col-sm-3">
+                    <div class="info">
+                        <h5 class="title">Company</h5>
+                        <nav>
+                            <ul>
+                                <li>
+                                    <a href="home.html">Home</a></li>
+                                <li>
+                                    <a href="http://www.tekamar.ca">Tekamar Mortgages Homepage</a>
+                                </li>
+                                <li>
+                                    <a href="about-us.html">Our Story</a>
+                                </li>
+                                <li>
+                                    <a href="apply.html">Apply Now</a>
+                                </li>
+                                
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="col-md-3 col-md-offset-1 col-sm-3">
+                    <div class="info">
+                        <h5 class="title"> Help and Support</h5>
+                         <nav>
+                            <ul>
+                                <li>
+                                    <a href="contact-us.html">Contact Us</a>
+                                </li>
+                                <li>
+                                    <a href="#ParentsInfo">How it works for Parents</a>
+                                </li>
+                                <li>
+                                    <a href="#ClubInfo">How it works for Clubs</a>
+                                </li>
+                                <li>
+                                    <a href="http://www.tekamar.ca/privacy-policy/">Privacy Policy</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                
+                <div class="col-md-3 col-md-offset-1 col-sm-4">
+                    <div class="info">
+                        <h5 class="title">Follow us on</h5>
+                        <nav>
+                            <ul>
+                                <li>
+                                    <a href="https://www.facebook.com/tekamar/" class="btn btn-social btn-facebook btn-simple">
+                                        <i class="fa fa-facebook-square"></i> Facebook
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="https://www.twitter.com/tekamarmortgage" class="btn btn-social btn-twitter btn-simple">
+                                        <i class="fa fa-twitter"></i> Twitter
+                                    </a>
+                                </li>
+                                
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
             </div>
+            <hr>
             <div class="copyright">
-                &copy; <script>document.write(new Date().getFullYear())</script>  Creative Tim, made with love
+                 © <script> document.write(new Date().getFullYear()) </script> Tekamar Mortgages, site built by <a href="http://www.richjdsmith.ca">@richjdsmith</a>
             </div>
         </div>
     </footer>
