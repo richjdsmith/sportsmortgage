@@ -38,7 +38,7 @@
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right navbar-uppercase">
                     <li>
-                        <a href="home.html">Home</a>
+                        <a href="index.html">Home</a>
                     </li>
                     <li>
                         <a href="about-us.html">Our Story</a>
@@ -85,7 +85,7 @@
                     <div class="col-md-8 col-md-offset-2">
                         <div>
                             <div class="col-md-2 col-md-offset-5">
-                                <a href="../../home.html"><button class="btn btn-danger btn-fill"> 
+                                <a href="../../index.html"><button class="btn btn-danger btn-fill"> 
                                     Home
                                 </button></a>
                             </div>
@@ -128,7 +128,7 @@
                         <nav>
                             <ul>
                                 <li>
-                                    <a href="home.html">Home</a></li>
+                                    <a href="index.html">Home</a></li>
                                 <li>
                                     <a href="http://www.tekamar.ca">Tekamar Mortgages Homepage</a>
                                 </li>

@@ -4,6 +4,42 @@
 		"selected_items":
 		[
 			[
+				"Club",
+				"ClubInfo"
+			],
+			[
+				"Clu",
+				"ClubInfo"
+			],
+			[
+				"margin",
+				"margin-top\t(bootstrap.css)"
+			],
+			[
+				"padding",
+				"padding-top\t(bootstrap.css)"
+			],
+			[
+				"apply",
+				"apply-online"
+			],
+			[
+				"btn",
+				"btn-danger"
+			],
+			[
+				"class",
+				"class=\"fa"
+			],
+			[
+				"info",
+				"info-icon\t(about-us.html)"
+			],
+			[
+				"si",
+				"sizes"
+			],
+			[
 				"contact",
 				"contact-us.html"
 			],
@@ -70,10 +106,6 @@
 			[
 				"rela",
 				"relative"
-			],
-			[
-				"margin",
-				"margin-top"
 			],
 			[
 				"pad",
@@ -156,10 +188,6 @@
 				"padding"
 			],
 			[
-				"padding",
-				"padding-top"
-			],
-			[
 				"ac",
 				"action\tAttr"
 			],
@@ -237,14 +265,27 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/richsmith/sportsmortgage"
 	],
 	"file_history":
 	[
 		"/Users/richsmith/sportsmortgage/home.html",
-		"/Users/richsmith/sportsmortgage/pricing.html",
+		"/Users/richsmith/sportsmortgage/contact-us.html",
+		"/Users/richsmith/sportsmortgage/assets/php/contactthanks.php",
+		"/Users/richsmith/sportsmortgage/apply.html",
 		"/Users/richsmith/sportsmortgage/about-us.html",
+		"/Users/richsmith/sites/sportsmortgagecouch/couch/config.php",
+		"/Users/richsmith/sportsmortgage/assets/css/bootstrap.css",
+		"/Users/richsmith/sportsmortgage/assets/js/bootstrap.js",
+		"/Users/richsmith/sportsmortgage/assets/css/gaia.css",
+		"/Users/richsmith/sportsmortgage/assets/js/gaia.js",
+		"/Users/richsmith/sportsmortgage/assets/php/contactengine.php",
 		"/Users/richsmith/sportsmortgage/freebie.html",
+		"/Users/richsmith/sportsmortgage/assets/css/custom.css",
+		"/Users/richsmith/Downloads/NiceSimpleContactForm/index.html",
+		"/Users/richsmith/sportsmortgage/documentation/components.html",
+		"/Users/richsmith/sportsmortgage/assets/js/scroll.js",
+		"/Users/richsmith/sportsmortgage/documentation/tutorial.html",
+		"/Users/richsmith/sportsmortgage/pricing.html",
 		"/Users/richsmith/sportsmortgage/assets/js/jquery.min.js",
 		"/Users/richsmith/sportsmortgage/assets/sass/gaia/_example-pages.scss",
 		"/Users/richsmith/OneDrive/Documents/Programming/My Websites/sportsmortgage.com/home.html",
@@ -354,23 +395,18 @@
 		"/Users/richsmith/Programming/default.htm",
 		"/Users/richsmith/Desktop/Website copy/Oportobags.com - Lanch/index.html",
 		"/Users/richsmith/Desktop/Website copy/Oportobags.com - Lanch/js/contact-form.php",
-		"/Users/richsmith/Desktop/Website copy/Oportobags.com - Lanch/js/contact-form2.php",
-		"/Users/richsmith/Downloads/TodoistN1/lib/my-message-sidebar.cjsx",
-		"/Users/richsmith/Downloads/TodoistN1-1.0/lib/my-message-sidebar.cjsx",
-		"/Users/richsmith/.nylas/packages/TodoistN1-1.0/lib/my-message-sidebar.cjsx",
-		"/Users/richsmith/Downloads/TodoistN1-1.0/lib/main.cjsx",
-		"/Users/richsmith/Downloads/TodoistN1-1.0/package.json",
-		"/Users/richsmith/Downloads/TodoistN1-1.0/README.md"
+		"/Users/richsmith/Desktop/Website copy/Oportobags.com - Lanch/js/contact-form2.php"
 	],
 	"find":
 	{
-		"height": 26.0
+		"height": 48.0
 	},
 	"find_in_files":
 	{
 		"height": 242.0,
 		"where_history":
 		[
+			"/Users/richsmith/sportsmortgage/",
 			"/Users/richsmith/sportsmortgage/contact-us.html",
 			"/Users/richsmith/sportsmortgage/about-us.html",
 			"/Users/richsmith/sportsmortgage/",
@@ -384,6 +420,18 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"home.html",
+			"api",
+			"map",
+			"google-map",
+			"gaia",
+			"custom.css",
+			"shrare",
+			"navba",
+			"center",
+			"contact",
+			"                </",
+			"sty",
 			"gaia",
 			"../assets",
 			"e78b90",
@@ -471,6 +519,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"index.html",
 			"assets",
 			".section-basic-information",
 			"84DCCF",

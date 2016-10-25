@@ -2932,6 +2932,7 @@ body.noscroll {
 }
 .list-logos .active .client-logo {
   color: #c5a47e;
+  text-decoration: underline;
 }
 .list-logos a {
   opacity: 0.9;
