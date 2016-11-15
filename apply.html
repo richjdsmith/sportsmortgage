@@ -1,351 +1,265 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8" />
-    <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/apple-icon.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="/assets/img/favicon.png">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <title>Apply | SportsMortgage</title>
-    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
-    <meta name="description" content="Ready save some money and apply for a mortgage through the SportsMortgage program? Awesome, let's do it.">
-    <!-- Twitter Card data -->
-    <meta name="twitter:card" value="Ready save some money and apply for a mortgage through the SportsMortgage program? Awesome, let's do it.">
-    <!-- Open Graph data -->
-    <meta property="og:title" content="Apply | SportsMortgage" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="http://www.sportsmortgage.com/apply.html" />
-    <meta property="og:image" content="http://www.sportsmortgage.com/assets/img/img12.jpg" />
-    <meta property="og:description" content="Ready save some money and apply for a mortgage through the SportsMortgage program? Awesome, let's do it." />
-    <!-- Stylesheets -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">    <link href="assets/css/gaia.css" rel="stylesheet"/>
-    <link href="assets/css/custom.css" rel="stylesheet"/>
-    <!--     Fonts and icons     -->
-    <link href='https://fonts.googleapis.com/css?family=Cambo|Lato:400,700' rel='stylesheet' type='text/css'>
-    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
-<!--<link href="/assets/css/fonts/pe-icon-7-stroke.css" rel="stylesheet">-->
+<meta charset="utf-8">
+<link rel="apple-touch-icon" sizes="76x76" href="/assets/img/apple-icon.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/assets/img/favicon.png">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Apply | SportsMortgage</title>
+<meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0" name="viewport">
+<meta name="description" content="Ready save some money and apply for a mortgage through the SportsMortgage program? Awesome, let's do it.">
+<meta name="twitter:card" value="Ready save some money and apply for a mortgage through the SportsMortgage program? Awesome, let's do it.">
+<meta property="og:title" content="Apply | SportsMortgage">
+<meta property="og:type" content="website">
+<meta property="og:url" content="http://www.sportsmortgage.com/apply.html">
+<meta property="og:image" content="http://www.sportsmortgage.com/assets/img/img12.jpg">
+<meta property="og:description" content="Ready save some money and apply for a mortgage through the SportsMortgage program? Awesome, let's do it.">
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link href="assets/css/style.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Cambo|Lato:400,700" rel="stylesheet">
+<link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
 </head>
-
 <body>
-
-     <nav class="navbar navbar-default navbar-transparent navbar-fixed-top" color-on-scroll="200">
-        <!-- if you want to keep the navbar hidden you can add this class to the navbar "navbar-burger"-->
-        <div class="container">
-            <div class="navbar-header">
-                <button id="menu-toggle" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar bar1"></span>
-                    <span class="icon-bar bar2"></span>
-                    <span class="icon-bar bar3"></span>
-                </button>
-                <a href="http://www.tekamar.ca" class="navbar-brand">
-                    SportsMortgage
-                </a>
-            </div>
-            <div class="collapse navbar-collapse">
-                <ul class="nav navbar-nav navbar-right navbar-uppercase">
-                    <li>
-                        <a href="index.html">Home</a>
-                    </li>
-                    <li>
-                        <a href="about-us.html">Our Story</a>
-                    </li>
-                    <li>
-                        <a href="contact-us.html">Contact Us</a>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#gaia" class="dropdown-toggle" data-toggle="dropdown">
-                            <i class="fa fa-phone"></i> Phone
-                        </a>
-                        <ul class="dropdown-menu dropdown-danger">
-                            <li>
-                                <a href="tel:1-800-658-2345" target="_blank">TF: 1-800-658-2345</a>
-                            </li>
-                            <li>
-                                <a href="tel:250-832-8766" target="_blank"><i class="fa fa-phone-square"></i>: 250-832-8766</a>
-                            </li>
-                            
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="apply.html" class="btn btn-danger btn-fill">Apply Now</a>
-                    </li>
-                    
-                    <li class="dropdown">
-                        <a href="#gaia" class="dropdown-toggle" data-toggle="dropdown">
-                            <i class="fa fa-share-alt"></i> Share
-                        </a>
-                        <ul class="dropdown-menu dropdown-danger">
-                            <li>
-                                <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//www.sportsmortgage.com/" target="_blank"><i class="fa fa-facebook-square"></i> Facebook</a>
-                            </li>
-                            <li>
-                                <a href="https://twitter.com/home?status=Check%20out%20this%20awesome%20program%20I%20found%20for%20Athletes%20Parents!%20http%3A//www.sportsmortgage.com/%20%40tekamarmortgage" target="_blank"><i class="fa fa-twitter"></i> Twitter</a>
-                            </li>
-                            
-                        </ul>
-                    </li>
-                    
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-    </nav>
-
-
-    <div class="section section-header section-header-about">
-        <div class="parallax filter filter-color-black">
-            <div class="image"
-                style="background-image:url('assets/img/img-10.jpg')">
-            </div>
-            <div class="container">
-                <div class="content">
-                    <h1>Apply with SportsMortgage</h1>
-                    <h3 class="subtitle">Ready for a new mortgage experience? Awesome, let's start.</h3>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="section">
-        <div class="text-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="title-area">
-                            <h5 class="subtitle text-gray">The simple steps on</h5>
-                            <h2>How to Apply</h2>
-                            <div class="separator separator-danger">✻</div>
-                        </div>
-                    </div>
-                    <div class="col-md-7 col-md-offset-1">
-                        <div class="description">
-                            <p>We're in this to make things as simple as possible for you. We get it, you're busy! That's why we have a few methods of applying for a mortgage through our SportsMortgage program. 
-                            </p>
-
-                            <p>If you haven't already read <a href="about-us.html" style="color:teal; font-size:110%">about us</a>, SportsMortgage is a program run by Tekamar Mortgages. Therefore, when you apply, you application will actually be going to Tekamar. That just means that any application you make on this site is going to be handled by the fine brokers (us) at Tekamar. Phew. With that out of the way, on to ways to apply.
-                            </p>
-
-                            <br>
-
-                            <a href="#apply-online" class="link-header" ><h3> Option 1: Apply online right here.</h3></a>
-                                <p>Directly below this section is our online application form. It should take about 10 minutes to fill out. Once you hit submit, it will be sent to our office. From there we will go through it, do some digging then give you a call or email you. We aim to get back within 24hrs. 
-                                </p>
-                            
-                            <a href="#pdf" class="link-header"><h3>Option 2: Apply with our PDF on the go.</h3></a>
-                                <p> We've gone ahead and made a super awesome PDF that lets you take your application on the go. Don't believe a PDF can be awesome? We don't blame you. Our's is because after you've filled it out - in the 2 minute breaks you have throughout the day - you can just press the submit button on the bottom of it and we get the info. No need to open an email app. Awesome right?
-                                </p>
-
-                            <a href="contact-us.html" class="link-header"><h3>Option 3: Apply over the phone or in person.</h3></a>
-                                <p> Don't feel like doing this online? No worries, give us a call at <a href="tel:2508328766"><em>250-832-8766</em> </a> &nbsp; or visit our <a href="contact-us.html"style="color:teal; font-size:110%">contact us page</a> and the team will be happy to help you out!
-                                </p>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-    
-
-
-    <div class="section">
-        <div class="parallax parallax-small">
-            <div class="image" style="background-image: url('assets/img/img12.jpg')"></div>
-        </div>
-        <br>
-        <br> 
-        <div class="container" id="apply-online">
-            <div class="row">
-                <div class="title-area">
-                    <h2>Apply Right Here</h2>
-                    <div class="separator separator-danger">✻</div>
-                    <p class="description">Ready to do this? Awesome, let's do it. Just fill out the following form to the best of your abilities (don't worry if you miss a couple things, we'll call and work through them with you). Once you do that, just hit submit and we'll get to back to you as soon as we can!</p>
-                    <p class="description">
-                        If you're on mobile, we're sorry it doesn't render all too well. Banking software only goes so far :(. You may want to try downloading our PDF below instead.
-                    </p>
-                </div>
-            </div>
-                
-            <div class="row">
-
-                <iframe id="appFrame" name="appFrame" width="100%" height="1050"></iframe>
-                    <form id="frmFullApplication" action="https://application.mortgageweb.ca/dhonlineapplicationNew.aspx" method="post" target="appFrame">
-                        <input id="firmcode" name="firmcode" type="hidden" value="TMLT" />
-                        <input id="dhagentid" name="dhagentid" type="hidden" value="smithr" />
-                        <input id="lenderlogo" name="lenderlogo" type="hidden" value="2104" />
-                        <input id="dhagentemail" name="dhagentemail" type="hidden" value="info@tekamar.ca" />
-                        <input id="dhagentfullname" name="dhagentfullname" type="hidden" value="The Tekamar Team " />
-                        <input id="dhagentphone" name="dhagentphone" type="hidden" value="250.832.8766" />
-                        <input id="dhagentcompanyname" name="dhagentcompanyname" type="hidden" value="Tekamar Mortgages" />
-                        <input id="dhagentlicenceno" name="dhagentlicenceno" type="hidden" value="x003952mmb" />
-                    </form>
-                    <script type="text/javascript">document.getElementById('frmFullApplication').submit();</script>
-                                        
-            </div>
-         </div>
-    </div>
-
-    <!--glyphicon glyphicon-download-alt -->
-
-    <div class="section" id="pdf">
-        <div class="container">
-            <div class="row">
-                <div class="title-area">
-                    <h2>Apply With Our PDF</h2>
-                    <div class="separator separator-danger">✻</div>
-                    <p class="description">Want to take the application with you on the go? No worries, that's what we made this for. Just download our PDF and once you've finished filling it out, just hit the submit button at the end. If you want to close it and work on it later, just make sure you save any changes (like the forms you've filled out) so they don't disappear when you come back!</p>
-                    
-                </div>
-            </div>
-            <div class="row">
-
-                <div class="info-icon">
-                    <a href="download.pdf" class="btn btn-lg btn-danger btn-fill">
-                        Download PDF&nbsp;<span class="fa fa-download fa-2x"></span>
-                    </a>
-                </div>
-            </div>
-            
-
-            <!--<div class="button-get-started">
-                   <a href="tekamarapply.pdf"> <button type="button" class="btn btn-lg btn-danger btn-fill "><<i class="fa fa-download" aria-hidden="true"</i></button></a>
-                </div> 
-
-
-            <div class="row">
-                <div class="col-md-12"
-                <a href="onlineapplication.pdf"
-                <button type="button" class="btn btn-default">
-                 <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>
-                </button>
-                </a>
-                </div>
-                                        
-            </div> -->
-         </div>
-    </div>
-
-
-
-    
-
-
-    <div class="section">
-        <div class="container">
-            <div class="row">
-                <div class="title-area">
-                    <h2>Worried about the Distance?</h2>
-                    <div class="separator separator-danger">✻</div>
-                    <p class="description"> Don't be. If it was 1999 we'd have an issue, but because it's <script>document.write(new Date().getFullYear())</script> the internet makes it super easy to work with you no matter where you are. So unlike your teenage kid, with us you don't need to worry about being in a long distance relationship.</p>
-                </div>
-            </div>
-        </div>
-        
-    </div>
-
-
-    <footer class="footer footer-big footer-color-black" data-color="black">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3 col-md-offset-1 col-sm-3">
-                    <div class="info">
-                        <h5 class="title">Company</h5>
-                        <nav>
-                            <ul>
-                                <li>
-                                    <a href="index.html">Home</a></li>
-                                <li>
-                                    <a href="http://www.tekamar.ca">Tekamar Mortgages Homepage</a>
-                                </li>
-                                <li>
-                                    <a href="about-us.html">Our Story</a>
-                                </li>
-                                <li>
-                                    <a href="apply.html">Apply Now</a>
-                                </li>
-                                
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
-                <div class="col-md-3 col-md-offset-1 col-sm-3">
-                    <div class="info">
-                        <h5 class="title"> Help and Support</h5>
-                         <nav>
-                            <ul>
-                                <li>
-                                    <a href="contact-us.html">Contact Us</a>
-                                </li>
-                                <li>
-                                    <a href="#ParentsInfo">How it works for Parents</a>
-                                </li>
-                                <li>
-                                    <a href="#ClubInfo">How it works for Clubs</a>
-                                </li>
-                                <li>
-                                    <a href="http://www.tekamar.ca/privacy-policy/">Privacy Policy</a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
-                
-                <div class="col-md-3 col-md-offset-1 col-sm-4">
-                    <div class="info">
-                        <h5 class="title">Follow us on</h5>
-                        <nav>
-                            <ul>
-                                <li>
-                                    <a href="https://www.facebook.com/tekamar/" class="btn btn-social btn-facebook btn-simple">
-                                        <i class="fa fa-facebook-square"></i> Facebook
-                                    </a>
-                                </li>
-
-                                <li>
-                                    <a href="https://www.twitter.com/tekamarmortgage" class="btn btn-social btn-twitter btn-simple">
-                                        <i class="fa fa-twitter"></i> Twitter
-                                    </a>
-                                </li>
-                                
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
-            </div>
-            <hr>
-            <div class="copyright">
-                 © <script> document.write(new Date().getFullYear()) </script> Tekamar Mortgages, site built by <a href="http://www.richjdsmith.ca">@richjdsmith</a>
-            </div>
-        </div>
-    </footer>
-
+<nav class="navbar navbar-default navbar-transparent navbar-fixed-top" color-on-scroll="200">
+<div class="container">
+<div class="navbar-header">
+<button id="menu-toggle" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar bar1"></span>
+<span class="icon-bar bar2"></span>
+<span class="icon-bar bar3"></span>
+</button>
+<a href="http://www.tekamar.ca" class="navbar-brand">
+SportsMortgage
+</a>
+</div>
+<div class="collapse navbar-collapse">
+<ul class="nav navbar-nav navbar-right navbar-uppercase">
+<li>
+<a href="index.html">Home</a>
+</li>
+<li>
+<a href="about-us.html">Our Story</a>
+</li>
+<li>
+<a href="contact-us.html">Contact Us</a>
+</li>
+<li class="dropdown">
+<a href="#gaia" class="dropdown-toggle" data-toggle="dropdown">
+<i class="fa fa-phone"></i> Phone
+</a>
+<ul class="dropdown-menu dropdown-danger">
+<li>
+<a href="tel:1-800-658-2345" target="_blank">TF: 1-800-658-2345</a>
+</li>
+<li>
+<a href="tel:250-832-8766" target="_blank"><i class="fa fa-phone-square"></i>: 250-832-8766</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="apply.html" class="btn btn-danger btn-fill">Apply Now</a>
+</li>
+<li class="dropdown">
+<a href="#gaia" class="dropdown-toggle" data-toggle="dropdown">
+<i class="fa fa-share-alt"></i> Share
+</a>
+<ul class="dropdown-menu dropdown-danger">
+<li>
+<a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//www.sportsmortgage.com/" target="_blank"><i class="fa fa-facebook-square"></i> Facebook</a>
+</li>
+<li>
+<a href="https://twitter.com/home?status=Check%20out%20this%20awesome%20program%20I%20found%20for%20Athletes%20Parents!%20http%3A//www.sportsmortgage.com/%20%40tekamarmortgage" target="_blank"><i class="fa fa-twitter"></i> Twitter</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+<div class="section section-header section-header-about">
+<div class="parallax filter filter-color-black">
+<div class="image" style="background-image:url(assets/img/img-10.jpg)">
+</div>
+<div class="container">
+<div class="content">
+<h1>Apply with SportsMortgage</h1>
+<h3 class="subtitle">Ready for a new mortgage experience? Awesome, let's start.</h3>
+</div>
+</div>
+</div>
+</div>
+<div class="section">
+<div class="text-area">
+<div class="container">
+<div class="row">
+<div class="col-md-4">
+<div class="title-area">
+<h5 class="subtitle text-gray">The simple steps on</h5>
+<h2>How to Apply</h2>
+<div class="separator separator-danger">✻</div>
+</div>
+</div>
+<div class="col-md-7 col-md-offset-1">
+<div class="description">
+<p>We're in this to make things as simple as possible for you. We get it, you're busy! That's why we have a few methods of applying for a mortgage through our SportsMortgage program.
+</p>
+<p>If you haven't already read <a href="about-us.html" style="color:teal;font-size:110%">about us</a>, SportsMortgage is a program run by Tekamar Mortgages. Therefore, when you apply, you application will actually be going to Tekamar. That just means that any application you make on this site is going to be handled by the fine brokers (us) at Tekamar. Phew. With that out of the way, on to ways to apply.
+</p>
+<br>
+<a href="#apply-online" class="link-header"><h3>Option 1: Apply online right here.</h3></a>
+<p>Directly below this section is our online application form. It should take about 10 minutes to fill out. Once you hit submit, it will be sent to our office. From there we will go through it, do some digging then give you a call or email you. We aim to get back within 24hrs.
+</p>
+<a href="#pdf" class="link-header"><h3>Option 2: Apply with our PDF on the go.</h3></a>
+<p>We've gone ahead and made a super awesome PDF that lets you take your application on the go. Don't believe a PDF can be awesome? We don't blame you. Our's is because after you've filled it out - in the 2 minute breaks you have throughout the day - you can just press the submit button on the bottom of it and we get the info. No need to open an email app. Awesome right?
+</p>
+<a href="contact-us.html" class="link-header"><h3>Option 3: Apply over the phone or in person.</h3></a>
+<p>Don't feel like doing this online? No worries, give us a call at <a href="tel:2508328766"><em>250-832-8766</em> </a>&nbsp; or visit our <a href="contact-us.html" style="color:teal;font-size:110%">contact us page</a> and the team will be happy to help you out!
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="section">
+<div class="parallax parallax-small">
+<div class="image" style="background-image:url(assets/img/img12.jpg)"></div>
+</div>
+<br>
+<br>
+<div class="container" id="apply-online">
+<div class="row">
+<div class="title-area">
+<h2>Apply Right Here</h2>
+<div class="separator separator-danger">✻</div>
+<p class="description">Ready to do this? Awesome, let's do it. Just fill out the following form to the best of your abilities (don't worry if you miss a couple things, we'll call and work through them with you). Once you do that, just hit submit and we'll get to back to you as soon as we can!</p>
+<p class="description">
+If you're on mobile, we're sorry it doesn't render all too well. Banking software only goes so far :(. You may want to try downloading our PDF below instead.
+</p>
+</div>
+</div>
+<div class="row">
+<iframe id="appFrame" name="appFrame" width="100%" height="1050"></iframe>
+<form id="frmFullApplication" action="https://application.mortgageweb.ca/dhonlineapplicationNew.aspx" method="post" target="appFrame">
+<input id="firmcode" name="firmcode" type="hidden" value="TMLT">
+<input id="dhagentid" name="dhagentid" type="hidden" value="smithr">
+<input id="lenderlogo" name="lenderlogo" type="hidden" value="2104">
+<input id="dhagentemail" name="dhagentemail" type="hidden" value="info@tekamar.ca">
+<input id="dhagentfullname" name="dhagentfullname" type="hidden" value="The Tekamar Team ">
+<input id="dhagentphone" name="dhagentphone" type="hidden" value="250.832.8766">
+<input id="dhagentcompanyname" name="dhagentcompanyname" type="hidden" value="Tekamar Mortgages">
+<input id="dhagentlicenceno" name="dhagentlicenceno" type="hidden" value="x003952mmb">
+</form>
+<script>document.getElementById("frmFullApplication").submit()</script>
+</div>
+</div>
+</div>
+<div class="section" id="pdf">
+<div class="container">
+<div class="row">
+<div class="title-area">
+<h2>Apply With Our PDF</h2>
+<div class="separator separator-danger">✻</div>
+<p class="description">Want to take the application with you on the go? No worries, that's what we made this for. Just download our PDF and once you've finished filling it out, just hit the submit button at the end. If you want to close it and work on it later, just make sure you save any changes (like the forms you've filled out) so they don't disappear when you come back!</p>
+</div>
+</div>
+<div class="row">
+<div class="info-icon">
+<a href="download.pdf" class="btn btn-lg btn-danger btn-fill">
+Download PDF&nbsp;<span class="fa fa-download fa-2x"></span>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="section">
+<div class="container">
+<div class="row">
+<div class="title-area">
+<h2>Worried about the Distance?</h2>
+<div class="separator separator-danger">✻</div>
+<p class="description">Don't be. If it was 1999 we'd have an issue, but because it's<script>document.write((new Date).getFullYear())</script>the internet makes it super easy to work with you no matter where you are. So unlike your teenage kid, with us you don't need to worry about being in a long distance relationship.</p>
+</div>
+</div>
+</div>
+</div>
+<footer class="footer footer-big footer-color-black" data-color="black">
+<div class="container">
+<div class="row">
+<div class="col-md-3 col-md-offset-1 col-sm-3">
+<div class="info">
+<h5 class="title">Company</h5>
+<nav>
+<ul>
+<li>
+<a href="index.html">Home</a></li>
+<li>
+<a href="http://www.tekamar.ca">Tekamar Mortgages Homepage</a>
+</li>
+<li>
+<a href="about-us.html">Our Story</a>
+</li>
+<li>
+<a href="apply.html">Apply Now</a>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+<div class="col-md-3 col-md-offset-1 col-sm-3">
+<div class="info">
+<h5 class="title">Help and Support</h5>
+<nav>
+<ul>
+<li>
+<a href="contact-us.html">Contact Us</a>
+</li>
+<li>
+<a href="#ParentsInfo">How it works for Parents</a>
+</li>
+<li>
+<a href="#ClubInfo">How it works for Clubs</a>
+</li>
+<li>
+<a href="http://www.tekamar.ca/privacy-policy/">Privacy Policy</a>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+<div class="col-md-3 col-md-offset-1 col-sm-4">
+<div class="info">
+<h5 class="title">Follow us on</h5>
+<nav>
+<ul>
+<li>
+<a href="https://www.facebook.com/tekamar/" class="btn btn-social btn-facebook btn-simple">
+<i class="fa fa-facebook-square"></i> Facebook
+</a>
+</li>
+<li>
+<a href="https://www.twitter.com/tekamarmortgage" class="btn btn-social btn-twitter btn-simple">
+<i class="fa fa-twitter"></i> Twitter
+</a>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<hr>
+<div class="copyright">
+©<script>document.write((new Date).getFullYear())</script>Tekamar Mortgages, site built by <a href="http://www.richjdsmith.ca">@richjdsmith</a>
+</div>
+</div>
+</footer>
 </body>
-
-<!--   core js files    -->
-<script src="assets/js/jquery.min.js" type="text/javascript"></script>
-<script src="assets/js/bootstrap.js" type="text/javascript"></script>
-
-
-<!--  js library for devices recognition -->
-<script type="text/javascript" src="assets/js/modernizr.js"></script>
-
-<!--   file where we handle all the script from the Gaia - Bootstrap Template   -->
-<script type="text/javascript" src="assets/js/gaia.js"></script>
-<script src="assets/js/scroll.js" type="text/javascript"></script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-KVTG5L');</script>
-<!-- End Google Tag Manager -->
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KVTG5L"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-
-
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/bootstrap.js"></script>
+<script src="assets/js/modernizr.js"></script>
+<script src="assets/js/gaia.js"></script>
+<script src="assets/js/scroll.js"></script>
+<script>!function(e,t,a,n,r){e[n]=e[n]||[],e[n].push({"gtm.start":(new Date).getTime(),event:"gtm.js"});var g=t.getElementsByTagName(a)[0],m=t.createElement(a),s="dataLayer"!=n?"&l="+n:"";m.async=!0,m.src="https://www.googletagmanager.com/gtm.js?id="+r+s,g.parentNode.insertBefore(m,g)}(window,document,"script","dataLayer","GTM-KVTG5L")</script>
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KVTG5L" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </html>

@@ -1,527 +1,414 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8" />
-    <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/apple-icon.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="/assets/img/favicon.png">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <title>Home | SportsMortgage</title>
-    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
-    <meta description="SportsMortgage is a program to help parents save money and sports clubs raise money by having their mortgage arranged through us. Go on, save a little!">
-    <!-- Twitter Card data -->
-    <meta name="twitter:card" value="SportsMortgage is a program to help parents save money and sports clubs raise money by having their mortgage arranged through us. Go on, save a little!">
-    <!-- Open Graph data -->
-    <meta property="og:title" content="SportsMortgage" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="http://www.sportsmortgage.com/" />
-    <meta property="og:image" content="http://sportsmortgage.com/assets/img/img1.jpeg" />
-    <meta property="og:description" content="SportsMortgage is a program to help parents save money and sports clubs raise money by having their mortgage arranged through us. Go on, save a little!" />
-    <!-- Stylesheets -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">    <link href="assets/css/gaia.css" rel="stylesheet"/>
-    <link href="assets/css/custom.css" rel="stylesheet"/>
-    <!--     Fonts and icons     -->
-    <link href='https://fonts.googleapis.com/css?family=Cambo|Lato:400,700' rel='stylesheet' type='text/css'>
-    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
-<!--<link href="/assets/css/fonts/pe-icon-7-stroke.css" rel="stylesheet">-->
+<meta charset="utf-8">
+<link rel="apple-touch-icon" sizes="76x76" href="/assets/img/apple-icon.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/assets/img/favicon.png">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Home | SportsMortgage</title>
+<meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0" name="viewport">
+<meta description="SportsMortgage is a program to help parents save money and sports clubs raise money by having their mortgage arranged through us. Go on, save a little!">
+<meta name="twitter:card" value="SportsMortgage is a program to help parents save money and sports clubs raise money by having their mortgage arranged through us. Go on, save a little!">
+<meta property="og:title" content="SportsMortgage">
+<meta property="og:type" content="website">
+<meta property="og:url" content="http://www.sportsmortgage.com/">
+<meta property="og:image" content="http://sportsmortgage.com/assets/img/img1.jpeg">
+<meta property="og:description" content="SportsMortgage is a program to help parents save money and sports clubs raise money by having their mortgage arranged through us. Go on, save a little!">
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link href="assets/css/style.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Cambo|Lato:400,700" rel="stylesheet">
+<link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
 </head>
-
 <body>
-
-    <nav class="navbar navbar-default navbar-transparent navbar-fixed-top" color-on-scroll="200">
-        <!-- if you want to keep the navbar hidden you can add this class to the navbar "navbar-burger"-->
-        <div class="container">
-            <div class="navbar-header">
-                <button id="menu-toggle" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar bar1"></span>
-                    <span class="icon-bar bar2"></span>
-                    <span class="icon-bar bar3"></span>
-                </button>
-                <a href="http://www.tekamar.ca" class="navbar-brand">
-                    SportsMortgage
-                </a>
-            </div>
-            <div class="collapse navbar-collapse">
-                <ul class="nav navbar-nav navbar-right navbar-uppercase">
-                    <li>
-                        <a href="index.html">Home</a>
-                    </li>
-                    <li>
-                        <a href="about-us.html">Our Story</a>
-                    </li>
-                    <li>
-                        <a href="contact-us.html">Contact Us</a>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#gaia" class="dropdown-toggle" data-toggle="dropdown">
-                            <i class="fa fa-phone"></i> Phone
-                        </a>
-                        <ul class="dropdown-menu dropdown-danger">
-                            <li>
-                                <a href="tel:1-800-658-2345" target="_blank">TF: 1-800-658-2345</a>
-                            </li>
-                            <li>
-                                <a href="tel:250-832-8766" target="_blank"><i class="fa fa-phone-square"></i>: 250-832-8766</a>
-                            </li>
-                            
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="apply.html" class="btn btn-danger btn-fill">Apply Now</a>
-                    </li>
-                    
-                    <li class="dropdown">
-                        <a href="#gaia" class="dropdown-toggle" data-toggle="dropdown">
-                            <i class="fa fa-share-alt"></i> Share
-                        </a>
-                        <ul class="dropdown-menu dropdown-danger">
-                            <li>
-                                <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//www.sportsmortgage.com/" target="_blank"><i class="fa fa-facebook-square"></i> Facebook</a>
-                            </li>
-                            <li>
-                                <a href="https://twitter.com/home?status=Check%20out%20this%20awesome%20program%20I%20found%20for%20Athletes%20Parents!%20http%3A//www.sportsmortgage.com/%20%40tekamarmortgage" target="_blank"><i class="fa fa-twitter"></i> Twitter</a>
-                            </li>
-                            
-                        </ul>
-                    </li>
-                    
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-    </nav>
-
-<!--End NavBar-->
-
-<!--Start Section: Header -->
-    
-    <div class="section section-header">
-        <div class="parallax filter filter-color-black">
-            <div class="image" style="
-                 background-image: 
-                    url('assets/img/img1.jpeg')">
-                       
-            </div>
-            <div class="container">
-                <div class="content">
-                    
-                    <h1>SportsMortgage</h1>
-                    <p><span>by </span>Tekamar Mortgages</p>
-                    <div class="separator-container">
-                        <div class="separator line-separator">♦</div>
-                    </div>
-                    <h5>A program to help parents save money and sports clubs raise money.</h5>
-                </div>
-            </div>
-        </div>
-        <a href="" data-scroll="true" data-id="#intro" class="scroll-arrow hidden-xs hidden-sm">
-            <i class="fa fa-angle-down"></i>
-        </a>
-    </div>
-
-<!-- End Section: Header -->
-<!-- Start Section: Intro -->
-
-    <div class="section" id="intro">
-        <div class="container">
-            <div class="title-area">
-                <h2>Organized Sports can get pretty expensive. We get that.</h2>
-                <div class="separator separator-danger">♦</div>
-                <p class="description">
-                    That's why we made SportsMortgage. It's a program to help parents afford to keep kids in sports and to help clubs and teams raise money without too many bottle drives. Because nobody really likes the sticky bottle drive days.
-                </p>
-                <p class="description">
-                    The concept is simple: Parents of young athletes have their mortgage arranged by SportsMortgage's partner brokerage. Once done, SportsMortgage will make a donation (based on the mortgage) split between the parents of the athlete and the club. It's that simple. 
-                </p>
-
-
-                    <div class="row max-width-50">
-                            
-                                <h3>More Info for:</h3>
-                                <div class="separator separator-danger">∎</div>
-                            
-                        <div class= "col-md-6 col-sm-12 col-lg-6">
-                            <a href="#ParentsInfo" class="btn btn-danger btn-fill btn-min-width">Parents</a>
-                        </div>
-
-                        <div class= "col-md-6 col-sm-12 col-lg-6">
-                            <a href="#ClubInfo" class="btn btn-danger btn-fill btn-min-width">Clubs</a>
-                        </div>
-
-                    </div>
-            </div>
-        </div>
-
-        <div class="parallax parallax-small">
-            <div class="image" style="background-image: url('assets/img/img3.jpeg')"></div>
-        </div>
-    </div>
-
-<!-- End Section: Intro -->
-
-<!--Start Section: ParentsInfo -->
-
-    <div class="section section-our-clients" id="ParentsInfo">
-        <div class="container">
-            <div class="title-area">
-                <h5 class="subtitle text-gray">Here is some more information for the</h5>
-                <h2>Athletes Parents</h2>
-
-                <div class="separator separator-danger">∎</div>
-                </div>
-
-            <ul class="nav nav-text list-logos list-logos-danger" role="tablist">
-                <li class="active">
-                    <a href="#testimonial1" role="tab" data-toggle="tab">
-                        <div class="client-logo">
-                            <i class="fa fa-question"></i>
-                            <h3>The What</h3>
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a href="#testimonial2" role="tab" data-toggle="tab">
-                        <div class="client-logo">
-                            <i class="fa fa-dollar"></i>
-                            <h3>The Cost</h3>
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a href="#testimonial3" role="tab" data-toggle="tab">
-                        <div class="client-logo">
-                            <i class="fa fa-heart"></i>
-                            <h3>The Benefits</h3>
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a href="#testimonial4" role="tab" data-toggle="tab">
-                        <div class="client-logo">
-                            <i class="fa fa-hand-o-right"></i>
-                            <h3>The How</h3>
-                        </div>
-                    </a>
-                </li>
-
-            </ul>
-
-            <div class="tab-content">
-                <div class="tab-pane active" id="testimonial1">
-                    <p class="description">
-                        So what exactly is all this business about getting a mortgage through "SportsMortgage" and having it pay for part of my kids sports? Well, it's actually as simple as that. The SportsMortgage program is run by a mortgage brokerage based out of Salmon Arm, BC called Tekamar Mortgages. The owner, Richard Smith, had 3 kids who played sports at an international level as well as was club president for their Ski club for years. Through this he saw the burden organized sports can put on parents and decided to get his company to do something about it. It's as simple as parent(s) getting their mortgage on a purchase, renewal or refinance done using a mortgage broker through sports mortgage and them and their child's sports club getting a cheque in the mail.
-                    </p>
-                </div>
-                <div class="tab-pane" id="testimonial2">
-                    <p class="description">So what does it cost? Nothing actually. Well, for you or your club anyways. The banks are actually the ones paying for this service. How getting a mortgage through a mortgage broker works is like this: the mortgage broker will take all the information for a mortgage, then essentially "shop" it around to different banks on your behalf. While the primary aim is getting the clients - you - the best mortgage with the lowest rate, banks are willing to pay brokers to arrange the paperwork and put it together instead of having to pay for it to be done in-house.
-                    </p>
-                </div>
-                <div class="tab-pane" id="testimonial3">
-                    <p class="description">Alright, so now that we've confirmed that the cost is free, what are the other benefits? Well first, did we mention that by having the broker take your deal to different banks (especially some lesser-known, smaller ones) , they are usually able to negotiate a lower rate on your behalf. Almost always they can get you a lot lower rate than your bank will offer. In addition, by having a mortgage broker arrange your mortgage, they only need to pull your credit once, versus if you shopped around yourself, each bank would need to check it, potentially lowering the score. Finally, the biggest benefit is getting an expert to work on your behalf ensuring you get the best mortgage. Just like you probably would hire a plumber to fix the plumbing on your home, why would you take a risk on your most important asset?
-                    </p>
-                    <p class="description">Oh, and there's the fact that you and your child's sports club are going to get a check back for <span class="link-header" data-toggle="popover" data-placement="top" title="Kickback Amounts" data-content="The amount we pay back is based on term of the mortgage. A 5 Year term earns 0.15%  back on the total mortgage amount. A 4 Year term earns 0.12% back on the total Mortgage amount. Finally, a 3 Year term earns 0.09% of the total mortgage amount. The total amount is then split between the club and the parent.">a percentege</span>of your mortgage amount, meaning on a $300,000 5 year mortgage, you'll each get $225. Next time you're at the bank, ask your banker if they'll match <em>that</em>.
-                    </p>
-
-                </div>
-                <div class="tab-pane" id="testimonial4">
-                    <p class="description">Ready to get started? Awesome, we're stoked to get to work with you! Getting going with SportsMortgage is actually pretty simple. If you came to this site through your club's recommendation or website, that means they're already signed up to be a partner club. If not, no worries, we can start working with you immediately and work on the side to get your son or daughter's club sign up in our ranks. To get started, either give our brokerage a call at 250-832-8766 and mention SportsMortgage, or sign-up through our <a href="contact-us.html" > contact page</a> and we will get in touch soon after. As long as you're in Canada, we can work with you. Between clients from out east and working with people in mining camps up north over satellite phones and internet, we're confident we can make it work.
-                    </p>
-                </div>
-            </div>
-
-        </div>
-
-        <div class="parallax parallax-small">
-            <div class="image" style="background-image: url('assets/img/img4.jpg')"></div>
-        </div>
-    </div>
-<!-- End Section: ParentsInfo -->
-
-<!-- Start Section: ClubInfo -->
-    <div class="section section-our-clients" id="ClubInfo">
-        <div class="container">
-            <div class="title-area">
-                <h5 class="subtitle text-gray">Here is some information for</h5>
-                <h2>The Clubs</h2>
-
-                <div class="separator separator-danger">∎</div>
-            </div>
-
-            <ul class="nav nav-text list-logos list-logos-danger" role="tablist">
-                <li class="active">
-                    <a href="#testimonial6" role="tab" data-toggle="tab">
-                        <div class="client-logo">
-                            <i class="fa fa-question"></i>
-                            <h3>What it Is</h3>
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a href="#testimonial7" role="tab" data-toggle="tab">
-                        <div class="client-logo">
-                            <i class="fa fa-heart"></i>
-                            <h3>How it Works</h3>
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a href="#testimonial8" role="tab" data-toggle="tab">
-                        <div class="client-logo">
-                            <i class="fa fa-money"></i>
-                            <h3>The Cost</h3>
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a href="#testimonial9" role="tab" data-toggle="tab">
-                        <div class="client-logo">
-                            <i class="fa fa-home"></i>
-                            <h3>How to Join</h3>
-                        </div>
-                    </a>
-                </li>
-
-            </ul>
-
-            <div class="tab-content">
-                <div class="tab-pane active" id="testimonial6">
-                    <p class="description">
-                        After being on the board of the Revelstoke ski club for 8 years, and with 5 of them as president, Richard Smith (CEO of Tekamar Mortgages, SportsMortgage's partner brokerage) realized that raising money for sports teams and clubs is hard. He found that it's an annual struggle to balance a clubs budget and get the athletes what they need without breaking their parents bank accounts. He got tired of wasting long-weekends out of season to collect bottles and cans. So he started SportsMortgage - a program where the brokerage kicks back (donates) a portion of its earnings to the parents of athletes and their clubs.
-                    </p>
-                    
-                </div>
-                <div class="tab-pane" id="testimonial7">
-                   <p class="description">
-                        SportsMortgage is a program that allows clubs to raise funding by having their athletes parents have their mortgages arranged through Tekamar Mortgage's SportsMortgage program. Banks pay Tekamar a small percentage of the total mortgage ammount to deal bring mortgages to them and arrange and organize all of the paperwork that goes with this. SportsMortgage is essentially Tekamar donating a portion of that <span class="link-header" data-toggle="popover" data-placement="top" title="Kickback Amounts" data-content="The amount we pay back is based on term of the mortgage. A 5 Year term earns 0.15%  back on the total mortgage amount. A 4 Year term earns 0.12% back on the total Mortgage amount. Finally, a 3 Year term earns 0.09% of the total mortgage amount. The total amount is then split between the club and the parent.">percentage</span> back  to the parents and their club. The parents get lower rates and money back, the club gets donations and Tekamar has a chance to get new clients - a win for all.
-                    </p>
-                </div>
-                <div class="tab-pane" id="testimonial8">
-                    <p class="description"> What's the cost and what's the catch? Well, there really isn't one. It's free for clubs to join the program, there is no cost to be in the program and SportsMortgage doesn't really expect anything in return for participating. Because it's the banks who pay us for providing our services, it doesn't cost your athlete's parents money either - if anything, they end up saving money because 90% of the time, we can get they a better rate than their own bank. It's almost like free lunch is actually a thing. 
-                    </p>
-                </div>
-                <div class="tab-pane" id="testimonial9">
-                    <p class="description">If this sounds like something that would be of interest to your club, we'd love to sign you up. Signing up is simple: just get someone of authority in the club give us a call (250-832-8766) or <a href="contact-us.html" style="color:teal; font-size:120%"> contact us</a> via email. We'll answer any questions they might have, get a mailing address (to send the cheques!) and then we'll add you to our list. From there it's up to your club to decide how they want to spread the info to their club members. When someone from you club or team does get their mortgage arranged through the SportsMortgage program, we will send the parents a cheque for 0.075% of their mortgage amount back to help pay for their kid's sports, and send your club a cheque for the same amount. That's it.
-                    </p>
-                </div>
-            </div>
-
-        </div>
-    </div>
-
-<!-- End Section: ClubInfo -->
-
-<!-- Start Section: Participating Clubs -->
-
-    <div class="section section-our-projects section-our-projects-fluid">
-
-        <div class="title-area">
-            <h5 class="subtitle text-gray">Check out some of our</h5>
-            <h2>Partner Clubs</h2>
-            <div class="separator separator-danger">♦</div>
-            <p class="description">
-                SportsMortgage has had a soft launch over the past year (2016) so we are just starting to add teams to our program. Join in and be one of the first to be able to share with friends in other clubs!
-            </p>
-            
-
-        </div>
-
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="project">
-                        <img src="assets/img/img13.jpeg" />
-                        <a class="over-area" href="apply.html">
-                            <div class="content">
-                                
-                                <h3>Your Club Here?</h3>
-                                <p>We're excited to work with your club, see if you can't have the next image here.</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="project">
-                        <img src="assets/img/img-bar.jpg" />
-                        <a class="over-area" href="https://barbvq.com/">
-                            <div class="content">
-                                
-                                <h3>Banff Alpine Racers</h3>
-                                <p class="teal">
-                                    
-                                </style>Excited to work with the kind people of BAR!</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="project">
-                        <img src="assets/img/img-club.jpg" />
-                        <a class="over-area" href="#gaia">
-                            <div class="content">
-                                
-                                <h3>Your Club Here?</h3>
-                                <p>We're excited to work with your club, see if you can't have the next image here.</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-
-    <div class="section section-get-started">
-        <div class="parallax filter filter-color-black">
-            <div class="image" style="background-image: url('assets/img/img-5.jpeg')">
-            </div>
-            <div class="container">
-                <div class="title-area">
-                    <h2 class="text-white">Ready for this?</h2>
-                    <div class="separator">♦</div>
-                    <p class="description">
-                        If SportsMortgage sounds like something you or your club/team would be interested in, then get in touch and let's make it happen!
-                    </p>
-                </div>
-
-                <div class="row max-width-50">
-                            
-                            
-                        <div class= "col-md-6 col-sm-12 col-lg-6">
-                            <div class="button-get-started">
-                                <a href="contact-us.html"> <button type="button" class="btn btn-lg btn-danger btn-fill ">Contact Us</button></a>
-                            </div>
-                        </div>
-
-                        <div class= "col-md-6 col-sm-12 col-lg-6">
-                            <div class="button-get-started">
-                                <a href="apply.html"> <button type="button" class="btn btn-lg btn-danger btn-fill ">Apply Now</button></a>
-                            </div>
-                        </div>
-
-                    </div>
-
-                <!--    
-                
-                <div class="button-get-started">
-                   <a href="contact-us.html"> <button type="button" class="btn btn-lg btn-danger btn-fill ">Contact Us</button></a>
-                </div>
-                -->
-            </div>
-        </div>
-    </div>
-
-
-    <footer class="footer footer-big footer-color-black" data-color="black">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3 col-md-offset-1 col-sm-3">
-                    <div class="info">
-                        <h5 class="title">Company</h5>
-                        <nav>
-                            <ul>
-                                <li>
-                                    <a href="index.html">Home</a></li>
-                                <li>
-                                    <a href="http://www.tekamar.ca">Tekamar Mortgages Homepage</a>
-                                </li>
-                                <li>
-                                    <a href="about-us.html">Our Story</a>
-                                </li>
-                                <li>
-                                    <a href="apply.html">Apply Now</a>
-                                </li>
-                                <li>
-                                        <a href="sitemap.xml">SiteMap</a>
-                                </li>
-                                
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
-                <div class="col-md-3 col-md-offset-1 col-sm-3">
-                    <div class="info">
-                        <h5 class="title"> Help and Support</h5>
-                         <nav>
-                            <ul>
-                                <li>
-                                    <a href="contact-us.html">Contact Us</a>
-                                </li>
-                                <li>
-                                    <a href="#ParentsInfo">How it works for Parents</a>
-                                </li>
-                                <li>
-                                    <a href="#ClubInfo">How it works for Clubs</a>
-                                </li>
-                                <li>
-                                    <a href="http://www.tekamar.ca/privacy-policy/">Privacy Policy</a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
-                
-                <div class="col-md-3 col-md-offset-1 col-sm-4">
-                    <div class="info">
-                        <h5 class="title">Follow us on</h5>
-                        <nav>
-                            <ul>
-                                <li>
-                                    <a href="https://www.facebook.com/tekamar/" class="btn btn-social btn-facebook btn-simple">
-                                        <i class="fa fa-facebook-square"></i> Facebook
-                                    </a>
-                                </li>
-
-                                <li>
-                                    <a href="https://www.twitter.com/tekamarmortgage" class="btn btn-social btn-twitter btn-simple">
-                                        <i class="fa fa-twitter"></i> Twitter
-                                    </a>
-                                </li>
-                                
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
-            </div>
-            <hr>
-            <div class="copyright">
-                 © <script> document.write(new Date().getFullYear()) </script> Tekamar Mortgages, site built by <a href="http://www.richjdsmith.ca">@richjdsmith</a>
-            </div>
-        </div>
-    </footer>
-
+<nav class="navbar navbar-default navbar-transparent navbar-fixed-top" color-on-scroll="200">
+<div class="container">
+<div class="navbar-header">
+<button id="menu-toggle" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar bar1"></span>
+<span class="icon-bar bar2"></span>
+<span class="icon-bar bar3"></span>
+</button>
+<a href="http://www.tekamar.ca" class="navbar-brand">
+SportsMortgage
+</a>
+</div>
+<div class="collapse navbar-collapse">
+<ul class="nav navbar-nav navbar-right navbar-uppercase">
+<li>
+<a href="index.html">Home</a>
+</li>
+<li>
+<a href="about-us.html">Our Story</a>
+</li>
+<li>
+<a href="contact-us.html">Contact Us</a>
+</li>
+<li class="dropdown">
+<a href="#gaia" class="dropdown-toggle" data-toggle="dropdown">
+<i class="fa fa-phone"></i> Phone
+</a>
+<ul class="dropdown-menu dropdown-danger">
+<li>
+<a href="tel:1-800-658-2345" target="_blank">TF: 1-800-658-2345</a>
+</li>
+<li>
+<a href="tel:250-832-8766" target="_blank"><i class="fa fa-phone-square"></i>: 250-832-8766</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="apply.html" class="btn btn-danger btn-fill">Apply Now</a>
+</li>
+<li class="dropdown">
+<a href="#gaia" class="dropdown-toggle" data-toggle="dropdown">
+<i class="fa fa-share-alt"></i> Share
+</a>
+<ul class="dropdown-menu dropdown-danger">
+<li>
+<a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//www.sportsmortgage.com/" target="_blank"><i class="fa fa-facebook-square"></i> Facebook</a>
+</li>
+<li>
+<a href="https://twitter.com/home?status=Check%20out%20this%20awesome%20program%20I%20found%20for%20Athletes%20Parents!%20http%3A//www.sportsmortgage.com/%20%40tekamarmortgage" target="_blank"><i class="fa fa-twitter"></i> Twitter</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+<div class="section section-header">
+<div class="parallax filter filter-color-black">
+<div class="image" style="background-image:url(assets/img/img1.jpeg)">
+</div>
+<div class="container">
+<div class="content">
+<h1>SportsMortgage</h1>
+<p><span>by </span>Tekamar Mortgages</p>
+<div class="separator-container">
+<div class="separator line-separator">♦</div>
+</div>
+<h5>A program to help parents save money and sports clubs raise money.</h5>
+</div>
+</div>
+</div>
+<a href="" data-scroll="true" data-id="#intro" class="scroll-arrow hidden-xs hidden-sm">
+<i class="fa fa-angle-down"></i>
+</a>
+</div>
+<div class="section" id="intro">
+<div class="container">
+<div class="title-area">
+<h2>Organized Sports can get pretty expensive. We get that.</h2>
+<div class="separator separator-danger">♦</div>
+<p class="description">
+That's why we made SportsMortgage. It's a program to help parents afford to keep kids in sports and to help clubs and teams raise money without too many bottle drives. Because nobody really likes the sticky bottle drive days.
+</p>
+<p class="description">
+The concept is simple: Parents of young athletes have their mortgage arranged by SportsMortgage's partner brokerage. Once done, SportsMortgage will make a donation (based on the mortgage) split between the parents of the athlete and the club. It's that simple.
+</p>
+<div class="row max-width-50">
+<h3>More Info for:</h3>
+<div class="separator separator-danger">∎</div>
+<div class="col-md-6 col-sm-12 col-lg-6">
+<a href="#ParentsInfo" class="btn btn-danger btn-fill btn-min-width">Parents</a>
+</div>
+<div class="col-md-6 col-sm-12 col-lg-6">
+<a href="#ClubInfo" class="btn btn-danger btn-fill btn-min-width">Clubs</a>
+</div>
+</div>
+</div>
+</div>
+<div class="parallax parallax-small">
+<div class="image" style="background-image:url(assets/img/img3.jpeg)"></div>
+</div>
+</div>
+<div class="section section-our-clients" id="ParentsInfo">
+<div class="container">
+<div class="title-area">
+<h5 class="subtitle text-gray">Here is some more information for the</h5>
+<h2>Athletes Parents</h2>
+<div class="separator separator-danger">∎</div>
+</div>
+<ul class="nav nav-text list-logos list-logos-danger" role="tablist">
+<li class="active">
+<a href="#testimonial1" role="tab" data-toggle="tab">
+<div class="client-logo">
+<i class="fa fa-question"></i>
+<h3>The What</h3>
+</div>
+</a>
+</li>
+<li>
+<a href="#testimonial2" role="tab" data-toggle="tab">
+<div class="client-logo">
+<i class="fa fa-dollar"></i>
+<h3>The Cost</h3>
+</div>
+</a>
+</li>
+<li>
+<a href="#testimonial3" role="tab" data-toggle="tab">
+<div class="client-logo">
+<i class="fa fa-heart"></i>
+<h3>The Benefits</h3>
+</div>
+</a>
+</li>
+<li>
+<a href="#testimonial4" role="tab" data-toggle="tab">
+<div class="client-logo">
+<i class="fa fa-hand-o-right"></i>
+<h3>The How</h3>
+</div>
+</a>
+</li>
+</ul>
+<div class="tab-content">
+<div class="tab-pane active" id="testimonial1">
+<p class="description">
+So what exactly is all this business about getting a mortgage through "SportsMortgage" and having it pay for part of my kids sports? Well, it's actually as simple as that. The SportsMortgage program is run by a mortgage brokerage based out of Salmon Arm, BC called Tekamar Mortgages. The owner, Richard Smith, had 3 kids who played sports at an international level as well as was club president for their Ski club for years. Through this he saw the burden organized sports can put on parents and decided to get his company to do something about it. It's as simple as parent(s) getting their mortgage on a purchase, renewal or refinance done using a mortgage broker through sports mortgage and them and their child's sports club getting a cheque in the mail.
+</p>
+</div>
+<div class="tab-pane" id="testimonial2">
+<p class="description">So what does it cost? Nothing actually. Well, for you or your club anyways. The banks are actually the ones paying for this service. How getting a mortgage through a mortgage broker works is like this: the mortgage broker will take all the information for a mortgage, then essentially "shop" it around to different banks on your behalf. While the primary aim is getting the clients - you - the best mortgage with the lowest rate, banks are willing to pay brokers to arrange the paperwork and put it together instead of having to pay for it to be done in-house.
+</p>
+</div>
+<div class="tab-pane" id="testimonial3">
+<p class="description">Alright, so now that we've confirmed that the cost is free, what are the other benefits? Well first, did we mention that by having the broker take your deal to different banks (especially some lesser-known, smaller ones) , they are usually able to negotiate a lower rate on your behalf. Almost always they can get you a lot lower rate than your bank will offer. In addition, by having a mortgage broker arrange your mortgage, they only need to pull your credit once, versus if you shopped around yourself, each bank would need to check it, potentially lowering the score. Finally, the biggest benefit is getting an expert to work on your behalf ensuring you get the best mortgage. Just like you probably would hire a plumber to fix the plumbing on your home, why would you take a risk on your most important asset?
+</p>
+<p class="description">Oh, and there's the fact that you and your child's sports club are going to get a check back for <span class="link-header" data-toggle="popover" data-placement="top" title="Kickback Amounts" data-content="The amount we pay back is based on term of the mortgage. A 5 Year term earns 0.15%  back on the total mortgage amount. A 4 Year term earns 0.12% back on the total Mortgage amount. Finally, a 3 Year term earns 0.09% of the total mortgage amount. The total amount is then split between the club and the parent.">a percentege</span>of your mortgage amount, meaning on a $300,000 5 year mortgage, you'll each get $225. Next time you're at the bank, ask your banker if they'll match <em>that</em>.
+</p>
+</div>
+<div class="tab-pane" id="testimonial4">
+<p class="description">Ready to get started? Awesome, we're stoked to get to work with you! Getting going with SportsMortgage is actually pretty simple. If you came to this site through your club's recommendation or website, that means they're already signed up to be a partner club. If not, no worries, we can start working with you immediately and work on the side to get your son or daughter's club sign up in our ranks. To get started, either give our brokerage a call at 250-832-8766 and mention SportsMortgage, or sign-up through our <a href="contact-us.html">contact page</a> and we will get in touch soon after. As long as you're in Canada, we can work with you. Between clients from out east and working with people in mining camps up north over satellite phones and internet, we're confident we can make it work.
+</p>
+</div>
+</div>
+</div>
+<div class="parallax parallax-small">
+<div class="image" style="background-image:url(assets/img/img4.jpg)"></div>
+</div>
+</div>
+<div class="section section-our-clients" id="ClubInfo">
+<div class="container">
+<div class="title-area">
+<h5 class="subtitle text-gray">Here is some information for</h5>
+<h2>The Clubs</h2>
+<div class="separator separator-danger">∎</div>
+</div>
+<ul class="nav nav-text list-logos list-logos-danger" role="tablist">
+<li class="active">
+<a href="#testimonial6" role="tab" data-toggle="tab">
+<div class="client-logo">
+<i class="fa fa-question"></i>
+<h3>What it Is</h3>
+</div>
+</a>
+</li>
+<li>
+<a href="#testimonial7" role="tab" data-toggle="tab">
+<div class="client-logo">
+<i class="fa fa-heart"></i>
+<h3>How it Works</h3>
+</div>
+</a>
+</li>
+<li>
+<a href="#testimonial8" role="tab" data-toggle="tab">
+<div class="client-logo">
+<i class="fa fa-money"></i>
+<h3>The Cost</h3>
+</div>
+</a>
+</li>
+<li>
+<a href="#testimonial9" role="tab" data-toggle="tab">
+<div class="client-logo">
+<i class="fa fa-home"></i>
+<h3>How to Join</h3>
+</div>
+</a>
+</li>
+</ul>
+<div class="tab-content">
+<div class="tab-pane active" id="testimonial6">
+<p class="description">
+After being on the board of the Revelstoke ski club for 8 years, and with 5 of them as president, Richard Smith (CEO of Tekamar Mortgages, SportsMortgage's partner brokerage) realized that raising money for sports teams and clubs is hard. He found that it's an annual struggle to balance a clubs budget and get the athletes what they need without breaking their parents bank accounts. He got tired of wasting long-weekends out of season to collect bottles and cans. So he started SportsMortgage - a program where the brokerage kicks back (donates) a portion of its earnings to the parents of athletes and their clubs.
+</p>
+</div>
+<div class="tab-pane" id="testimonial7">
+<p class="description">
+SportsMortgage is a program that allows clubs to raise funding by having their athletes parents have their mortgages arranged through Tekamar Mortgage's SportsMortgage program. Banks pay Tekamar a small percentage of the total mortgage ammount to deal bring mortgages to them and arrange and organize all of the paperwork that goes with this. SportsMortgage is essentially Tekamar donating a portion of that <span class="link-header" data-toggle="popover" data-placement="top" title="Kickback Amounts" data-content="The amount we pay back is based on term of the mortgage. A 5 Year term earns 0.15%  back on the total mortgage amount. A 4 Year term earns 0.12% back on the total Mortgage amount. Finally, a 3 Year term earns 0.09% of the total mortgage amount. The total amount is then split between the club and the parent.">percentage</span> back to the parents and their club. The parents get lower rates and money back, the club gets donations and Tekamar has a chance to get new clients - a win for all.
+</p>
+</div>
+<div class="tab-pane" id="testimonial8">
+<p class="description">What's the cost and what's the catch? Well, there really isn't one. It's free for clubs to join the program, there is no cost to be in the program and SportsMortgage doesn't really expect anything in return for participating. Because it's the banks who pay us for providing our services, it doesn't cost your athlete's parents money either - if anything, they end up saving money because 90% of the time, we can get they a better rate than their own bank. It's almost like free lunch is actually a thing.
+</p>
+</div>
+<div class="tab-pane" id="testimonial9">
+<p class="description">If this sounds like something that would be of interest to your club, we'd love to sign you up. Signing up is simple: just get someone of authority in the club give us a call (250-832-8766) or <a href="contact-us.html" style="color:teal;font-size:120%">contact us</a> via email. We'll answer any questions they might have, get a mailing address (to send the cheques!) and then we'll add you to our list. From there it's up to your club to decide how they want to spread the info to their club members. When someone from you club or team does get their mortgage arranged through the SportsMortgage program, we will send the parents a cheque for 0.075% of their mortgage amount back to help pay for their kid's sports, and send your club a cheque for the same amount. That's it.
+</p>
+</div>
+</div>
+</div>
+</div>
+<div class="section section-our-projects section-our-projects-fluid">
+<div class="title-area">
+<h5 class="subtitle text-gray">Check out some of our</h5>
+<h2>Partner Clubs</h2>
+<div class="separator separator-danger">♦</div>
+<p class="description">
+SportsMortgage has had a soft launch over the past year (2016) so we are just starting to add teams to our program. Join in and be one of the first to be able to share with friends in other clubs!
+</p>
+</div>
+<div class="container-fluid">
+<div class="row">
+<div class="col-lg-4 col-md-6 col-sm-6">
+<div class="project">
+<img src="assets/img/img13.jpeg">
+<a class="over-area" href="apply.html">
+<div class="content">
+<h3>Your Club Here?</h3>
+<p>We're excited to work with your club, see if you can't have the next image here.</p>
+</div>
+</a>
+</div>
+</div>
+<div class="col-lg-4 col-md-6 col-sm-6">
+<div class="project">
+<img src="assets/img/img-bar.jpg">
+<a class="over-area" href="https://barbvq.com/">
+<div class="content">
+<h3>Banff Alpine Racers</h3>
+<p class="teal">
+Excited to work with the kind people of BAR!</p>
+</div>
+</a>
+</div>
+</div>
+<div class="col-lg-4 col-md-6 col-sm-6">
+<div class="project">
+<img src="assets/img/img-club.jpg">
+<a class="over-area" href="#gaia">
+<div class="content">
+<h3>Your Club Here?</h3>
+<p>We're excited to work with your club, see if you can't have the next image here.</p>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="section section-get-started">
+<div class="parallax filter filter-color-black">
+<div class="image" style="background-image:url(assets/img/img-5.jpeg)">
+</div>
+<div class="container">
+<div class="title-area">
+<h2 class="text-white">Ready for this?</h2>
+<div class="separator">♦</div>
+<p class="description">
+If SportsMortgage sounds like something you or your club/team would be interested in, then get in touch and let's make it happen!
+</p>
+</div>
+<div class="row max-width-50">
+<div class="col-md-6 col-sm-12 col-lg-6">
+<div class="button-get-started">
+<a href="contact-us.html"><button type="button" class="btn btn-lg btn-danger btn-fill">Contact Us</button></a>
+</div>
+</div>
+<div class="col-md-6 col-sm-12 col-lg-6">
+<div class="button-get-started">
+<a href="apply.html"><button type="button" class="btn btn-lg btn-danger btn-fill">Apply Now</button></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<footer class="footer footer-big footer-color-black" data-color="black">
+<div class="container">
+<div class="row">
+<div class="col-md-3 col-md-offset-1 col-sm-3">
+<div class="info">
+<h5 class="title">Company</h5>
+<nav>
+<ul>
+<li>
+<a href="index.html">Home</a></li>
+<li>
+<a href="http://www.tekamar.ca">Tekamar Mortgages Homepage</a>
+</li>
+<li>
+<a href="about-us.html">Our Story</a>
+</li>
+<li>
+<a href="apply.html">Apply Now</a>
+</li>
+<li>
+<a href="sitemap.xml">SiteMap</a>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+<div class="col-md-3 col-md-offset-1 col-sm-3">
+<div class="info">
+<h5 class="title">Help and Support</h5>
+<nav>
+<ul>
+<li>
+<a href="contact-us.html">Contact Us</a>
+</li>
+<li>
+<a href="#ParentsInfo">How it works for Parents</a>
+</li>
+<li>
+<a href="#ClubInfo">How it works for Clubs</a>
+</li>
+<li>
+<a href="http://www.tekamar.ca/privacy-policy/">Privacy Policy</a>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+<div class="col-md-3 col-md-offset-1 col-sm-4">
+<div class="info">
+<h5 class="title">Follow us on</h5>
+<nav>
+<ul>
+<li>
+<a href="https://www.facebook.com/tekamar/" class="btn btn-social btn-facebook btn-simple">
+<i class="fa fa-facebook-square"></i> Facebook
+</a>
+</li>
+<li>
+<a href="https://www.twitter.com/tekamarmortgage" class="btn btn-social btn-twitter btn-simple">
+<i class="fa fa-twitter"></i> Twitter
+</a>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<hr>
+<div class="copyright">
+©<script>document.write((new Date).getFullYear())</script>Tekamar Mortgages, site built by <a href="http://www.richjdsmith.ca">@richjdsmith</a>
+</div>
+</div>
+</footer>
 </body>
-
-
-
-
-<!--   core js files    -->
-<script src="assets/js/jquery.min.js" type="text/javascript"></script>
-<script src="https://raw.githubusercontent.com/HubSpot/tether/master/dist/js/tether.min.js" type="text/javascript"></script>
-<script src="assets/js/bootstrap.js" type="text/javascript"></script>
-
-<!--  js library for devices recognition -->
-<script type="text/javascript" src="assets/js/modernizr.js"></script>
-<!--   file where we handle all the script from the Gaia - Bootstrap Template   -->
-<script type="text/javascript" src="assets/js/gaia.js"></script>
-<script src="assets/js/scroll.js" type="text/javascript"></script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-KVTG5L');</script>
-<!-- End Google Tag Manager -->
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KVTG5L"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-
-<script>
-$(document).ready(function(){
-    $('[data-toggle="popover"]').popover();
-});
-</script>
-
+<script src="assets/js/jquery.min.js"></script>
+<script src="https://raw.githubusercontent.com/HubSpot/tether/master/dist/js/tether.min.js"></script>
+<script src="assets/js/bootstrap.js"></script>
+<script src="assets/js/modernizr.js"></script>
+<script src="assets/js/gaia.js"></script>
+<script src="assets/js/scroll.js"></script>
+<script>!function(e,t,a,n,r){e[n]=e[n]||[],e[n].push({"gtm.start":(new Date).getTime(),event:"gtm.js"});var g=t.getElementsByTagName(a)[0],m=t.createElement(a),s="dataLayer"!=n?"&l="+n:"";m.async=!0,m.src="https://www.googletagmanager.com/gtm.js?id="+r+s,g.parentNode.insertBefore(m,g)}(window,document,"script","dataLayer","GTM-KVTG5L")</script>
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KVTG5L" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>$(document).ready(function(){$('[data-toggle="popover"]').popover()})</script>
 </html>

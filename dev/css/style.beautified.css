@@ -5412,3 +5412,18 @@ body {
         padding: 0
     }
 }
+.max-width-50
+{
+  max-width: 50%;
+  margin: 0 auto;
+}
+.btn-min-width
+{
+  min-width: 8em;
+}
+.link-header
+{
+    text-transform: uppercase;
+    color: #e78b90;
+    cursor: pointer;
+}
