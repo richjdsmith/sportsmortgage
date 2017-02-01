@@ -121,29 +121,29 @@
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
                         <div class="contact-form">
-                            <form action="assets/php/contactengine.php" method="post">
+                            <form id="contact-form" method="post" action="assets/php/email.php">
                                 <div class="row">
                                     <div class="col-md-4">
                                         <div class="form-group">
                                             <label for="Name">Your Full Name</label>
-                                            <input type="text" name="Name" id="Name" placeholder="John Doe" class="form-control form-control-plain">
+                                            <input type="text" name="name" id="name" placeholder="John Doe" class="form-control form-control-plain">
                                         </div>
                                     </div>
                                     <div class="col-md-4">
                                         <div class="form-group">
                                             <label>Your Email</label>
-                                            <input type="text" name="Email" id="Email" placeholder="john.doe@gmail.com" class="form-control form-control-plain">
+                                            <input type="text" name="email" type="email" id="email" placeholder="john.doe@gmail.com" class="form-control form-control-plain" required="required" data-error="We need an email address so we can contact you.">
                                         </div>
                                     </div>
                                     <div class="col-md-4">
                                         <div class="form-group">
                                             <label>Phone Number</label>
-                                            <input type="tel" name="Tel" id="Tel" placeholder="250-000-0000" class="form-control form-control-plain">
+                                            <input type="tel" name="phone" id="tel" placeholder="250-000-0000" class="form-control form-control-plain">
                                         </div>
                                     </div>
                                     <div class="col-md-12">
                                         <div class="form-group">
-                                            <textarea name="Message" id="Message" class="form-control form-control-plain" placeholder="Here you can write your lovely message." rows="8"></textarea>
+                                            <textarea name="message" id="message" class="form-control form-control-plain" placeholder="Here you can write your lovely message." rows="8" required="required" data-error="Looks like there's no message!"></textarea>
                                         </div>
                                         <div>
                                             <div class="col-md-2 col-md-offset-5">
