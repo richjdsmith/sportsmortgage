@@ -49,7 +49,7 @@ $mail->Subject = "SportsMortgage Contact: {$name}";
 // on our contact us page. We set this variable at
 // the top of this page with:
 // $message = $_REQUEST['message'] ;
-$mail->Body    = $name \n $email n\ $message;
+$mail->Body    = $name . $email . $message;
 $mail->AltBody = $message;
 
 if(!$mail->Send())
